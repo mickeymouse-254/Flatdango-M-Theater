@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://avatars.mds.yandex.net/i?id=3692641696835691c8ccf4ef146171ca92986840-6367247-images-thumbs&n=13");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.highlight {
+  color: gold; /* Change the color value to your desired color */
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#moviePoster {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#poster {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#movieDetails {
+  position: fixed;
+  top: 737px;
+  right: 180px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#movieTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+#movieRuntime,
+#movieShowtime,
+#movieAvailableTickets {
+  margin-bottom: 10px;
+  color: rgb(247, 211, 9);
+}
+
+#movieMenu {
+  position: fixed;
+  top: 60px;
+  left: 20px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+#movieMenu h2{
+  text-decoration: underline;
+}
+#movieList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#movieList li {
+  margin-bottom: 25px;
+  cursor: pointer;
+  color: gold;
+}
+
+/* Rest of the CSS code */
